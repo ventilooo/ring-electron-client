@@ -1,0 +1,11 @@
+{
+  "name": "ring-electron-client",
+  "version": "0.0.1",
+  "description": "A web based ring client.",
+  "main": "Main.js",
+  "scripts": {
+    "test": "electron src/App.js"
+  },
+  "author": "istvan szalai",
+  "license": "GPL-3.0"
+}
