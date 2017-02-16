@@ -4,7 +4,7 @@
   "description": "A web based ring client.",
   "main": "Main.js",
   "scripts": {
-    "test": "electron src/App.js"
+    "start": "electron src/App.js"
   },
   "author": "istvan szalai",
   "license": "GPL-3.0"

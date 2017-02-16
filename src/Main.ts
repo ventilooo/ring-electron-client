@@ -17,7 +17,7 @@ export default class Main {
         // this is a dependency we will have to live with
         // because we can't create BrowserWindow until
         // onReady fires.
-        Main.mainWindow = new Main.BrowserWindow({width: 800, height: 600})
+        Main.mainWindow = new Main.BrowserWindow({width: 800, height: 600,icon:'assets/ring-icon.png'})
         Main.mainWindow.loadURL('file://' + __dirname + '/index.html');
         Main.mainWindow.on('closed', Main.onClose);
     }
