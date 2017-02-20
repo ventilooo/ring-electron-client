@@ -3,13 +3,15 @@
 
 WORK IN PROGRESS
 
-`sudo apt install node-typescript`
+`sudo apt install node-typescript swig3.0`
 
 `npm install`
 
 `npm install -g typings`
 
 `npm install -g electron`
+
+`npm install -g node-gyp`
 
 `typings install`
 

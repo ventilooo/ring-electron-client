@@ -1,7 +1,9 @@
+*.cxx
 *.js
 *.map
 node_modules/
 typings/
+build/
 
 .vscode
 npm-debug.log
