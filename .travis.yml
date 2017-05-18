@@ -8,4 +8,5 @@ install:
   - nvm use
   - yarn install
 script:
+  - make
   - yarn run build
