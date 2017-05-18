@@ -1,8 +1,0 @@
-{
-  "globalDependencies": {
-    "core-js": "registry:dt/core-js#0.9.7+20161130133742",
-    "electron": "registry:dt/electron#1.4.8+20170202141310",
-    "jasmine": "registry:dt/jasmine#2.5.0+20170207112528",
-    "node": "registry:dt/node#7.0.0+20170204020307"
-  }
-}
