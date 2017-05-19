@@ -1,6 +1,6 @@
 @import 'base/reset';
 
-$color-base: #eeeeee;
+$color-base: #c3c3c3;
 
 html {
     box-sizing: border-box;
@@ -22,9 +22,10 @@ body {
     font-weight: 400;
     line-height: 1.2;
     text-size-adjust: none;
+    animation: landing 600ms forwards;
 }
 
-#root {
+#react-root {
   height: 100%;
 }
 
@@ -36,12 +37,54 @@ body {
   justify-content: center;
   padding: 40px;
 
-  &__image {
-    max-width: 20rem;
-  }
-
   &__title {
     font-size: 3.4rem;
     margin: 2rem 0 0;
+    opacity: 0;
+    animation: appearTitle 400ms 1s forwards;
+  }
+}
+
+.logo  {
+  animation: appear 1s 600ms forwards;
+  opacity: 0;
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes appearTitle {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes landing {
+  0% {
+    background: #c3c3c3;
+  }
+
+  100% {
+    background: #eeeeee;
   }
 }
