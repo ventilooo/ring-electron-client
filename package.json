@@ -34,11 +34,12 @@
   },
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.1"
   },
   "devEngines": {
-    "node": ">=7.x",
-    "npm": ">=4.x",
+    "node": ">=6.x",
+    "npm": ">=3.x",
     "yarn": ">=0.21.3"
   }
 }
