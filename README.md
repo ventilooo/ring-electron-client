@@ -2,6 +2,8 @@
 
 [![Known Vulnerabilities](https://snyk.io/test/github/ventilooo/ring-electron-client/badge.svg)](https://snyk.io/test/github/ventilooo/ring-electron-client)
 
+[![develop](https://travis-ci.org/ventilooo/ring-electron-client.svg?branch=develop)](https://travis-ci.org/ventilooo/ring-electron-client)
+
 **WORK IN PROGRESS**
 
 ## Installation
